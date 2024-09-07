@@ -2,6 +2,9 @@
 # ref: https://xeiaso.net/notes/2024/cronchgif/
 # video_minify.sh
 
+# ffmpehとImageMagickにより、重たい動画をWeb適応させるコンバーター
+# ffmepegだけでは重たすぎる動画に適用する
+
 set -e
 
 [ ! -z "${DEBUG}" ] && set -x
